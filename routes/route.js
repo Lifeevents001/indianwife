@@ -752,7 +752,7 @@ router.post("/payment", async (req, res) => {
       },
       order_note: plan,
       order_meta: {
-        return_url: `http://localhost:5000/payment/status?order_id={order_id}`, // Redirect URL after payment
+        return_url: `https://www.indianwife.in/payment/status?order_id={order_id}`, // Redirect URL after payment
         notify_url: `http://localhost:5000/payment/webhook`, // Webhook to get real-time updates
         promo_code: promocode
       },
